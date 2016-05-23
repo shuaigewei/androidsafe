@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/sky_blue"
+       android:text="功能列表"
+       android:textSize="30sp" 
+       android:gravity="center"
+       android:textColor="@color/black"
+       />
+
+    <com.wei.android.view.FoucsView
+        android:layout_width="match_parent"
+       android:layout_height="25dp"
+       android:background="@color/yellow_green"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:gravity="center"
+       android:ellipsize="marquee"
+       android:singleLine="true"
+       android:text="这是第一次做的滚动条，用的是自定义一个新的FocusView，多多指教"
+       android:textSize="15sp" 
+       android:textColor="@color/black" />
+   
+<!--     <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="25dp"
+       android:background="@color/yellow_green"
+       android:gravity="center"
+       android:ellipsize="marquee"
+       android:focusable="true"
+       android:focusableInTouchMode="true"
+       android:singleLine="true"
+       android:text="这是第一次做的滚动条，用的是自定义一个新的FocusView，多多指教"
+       android:textSize="15sp" 
+       android:textColor="@color/black" /> -->
+       
+
+
+    <GridView 
+       android:layout_width="wrap_content"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:layout_marginTop="10dp"
+       android:id="@+id/gn_griview"
+       android:numColumns="3" />
+    
+    
+
+</LinearLayout>
